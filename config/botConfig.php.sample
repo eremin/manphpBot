@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'apiKey' => '1234:ABCD',
+    'bot.url' => 'http://bot.webhook.com/hook.php',
+];

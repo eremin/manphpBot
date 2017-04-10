@@ -1,0 +1,24 @@
+{
+  "autoload" : {
+    "psr-4": {
+      "ManPhpBot\\": "src/"
+    }
+  },
+  "name": "eremin/manphpbot",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7",
+    "php-di/php-di": "^5.4",
+    "doctrine/cache": "^1.4",
+    "guzzlehttp/guzzle": "~6.0",
+    "irazasyed/telegram-bot-sdk": "dev-master",
+    "league/flysystem": "^1.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/exileed/telegram-bot-sdk"
+    }
+  ]
+}
